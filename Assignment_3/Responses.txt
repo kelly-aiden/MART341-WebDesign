@@ -1,0 +1,4 @@
+1. One advantage of using a text editor is that it changes the color or look of certain elements of languages such as markdown which makes editing and visualizing your work easier and more accessible.
+
+
+2. The only advantage relative URLs give over absolute URLs is that relative URLs are much shorter than absolute URLs since they do not include protocols or domain information.
