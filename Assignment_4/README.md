@@ -1,4 +1,4 @@
-#Answers for Assignment 4
+# Answers for Assignment 4
 1. The UI (user interface) is what users are shown and is how they interact with the contents and features of the site. The rendering engine is what creates the visuals of the page from information given from html and css pages. The browser engine communicates between the UI, rendering engine, and outside servers. The network is how all the different components interact with one another. A coding language interpreter is needed to understand the coding language behind the functionality of the site. Every site also has data storage of some kind.
 
 2. DOM is a Document Object Model. It is an interface to a document and stipulates how that document is accessed and changed by defining its structure in a logical way. It does this by structuring each item as a node in a tree structure so it can be easily identified and ordered by the rendering engine and easily modified by a coding language.
