@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Define the character set used -->
+        <meta charset="UTF-8">
+
+        <!--  A description of my page -->
+        <meta name="description" content="Show info regarding UMT's production of A Wrinkle in Time">
+
+        <!-- Provides the author information for the page -->
+        <meta name="author" content="Aiden Kelly">
+
+        <!-- Allows the site to format to mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            Come see Wrinkle in Time!
+        </title>
+
+        <!-- Provides the browser with the CSS stylesheet, unnecessary for this assignment.-->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- Style elements for the color scheme of the site -->
+        <style>
+            body {background-color:rgb(103, 14, 33)}
+            h1 {color:rgb(170, 182, 191)}
+            h2 {color:rgb(170, 182, 191)}
+            p {color:rgb(247, 238, 170)}
+            table {border: 2px solid rgb(170, 182, 191)}
+            th {color:rgb(170, 182, 191)}
+            tr {color:rgb(247, 238, 170)}
+            label {color:rgb(170, 182, 191)}
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1><i>A Wrinkle in Time</i> opens October 12!</h1>
+
+        <img src="images/AWIT_poster.jpg" alt="UMT's poster for their production of A Wrinkle in Time" title = "UMT's A Wrinkle in Time poster" width = "700" height = "400">
+        
+        <h2>Let's look at showtimes!</h2>
+
+        <table style = "width: 250px;">
+            <tr>
+                <th>Day</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>October 12</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>October 13</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>October 14</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>October 15</td>
+                <td>2:00</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>October 19</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>October 20</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>October 21</td>
+                <td>7:30</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>October 22</td>
+                <td>2:00</td>
+            </tr>
+        </table>
+        <br />
+        <p>
+            If you would like to purchase tickets, go to <a href="https://griztix.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=WIT&linkID=montana&shopperContext=&caller=&appCode="> UMT's ticketing website.</a>
+        </p>
+        <br />
+        <hr color = "gray"/>
+        <p>Will you be coming to the show?</p>
+            <input type="radio" name="choice" value="yes" checked/> 
+            <label>Yes!</label>
+            <br />
+            <input type="radio" name="choice" value="no"/> 
+            <label>No (I'm so sorry)</label>
+        <p>If you are not coming, please list why:</p>
+            <input type="checkbox" name="reason" value="broke" /> 
+            <label>Can't afford tickets</label>
+            <br />
+            <input type="checkbox" name="reason" value="busy" /> 
+            <label>No room in my schedule</label>
+            <br />
+            <input type="checkbox" name="reason" value="hater" /> 
+            <label>I hate live theater and the arts</label>
+            <br />
+            <input type="checkbox" name="reason" value="other" /> 
+            <label>other (please list below)</label>
+            <br />
+            <textarea name="other reasons" id="textarea">Other reasons for not showing up </textarea>
+        <hr color = "gray"/>
+        <p>I would really appreciate you coming to the show, me and all the other cast, crew, and designers have put a massive amount of time and energy into this production. We hope to see you there!</p>
+    </body>
+</html>
