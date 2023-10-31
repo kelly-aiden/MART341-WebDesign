@@ -1,0 +1,67 @@
+body
+{
+    background-color: #fd92a6;
+    font-family: Georgia, serif;
+    color: white;
+    font-size: 25px;
+}
+
+div
+{
+    border: 10px solid #1b1464;
+    padding: 20px;
+    background-color: #f267a0;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+h1
+{
+    color: #1b1464;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+hr
+{
+    border: 5px rgb(27, 20, 102) solid;
+}
+
+
+.sub-container
+{
+    margin: auto;
+    width: 500px;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#tai-verdes
+{
+    background-image: url(Media/Tai_Verdes_Album_cover.jpg);
+}
+
+#akintoye
+{
+    background-image: url(Media/Akintoye_album_cover.jpg);
+    color:rgb(27, 20, 102);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#fulton-lee
+{
+    background-image: url(Media/Fulton_Lee_album_cover.jpg);
+    text-shadow: -1px 0 #1b1464, 0 1px #1b1464, 1px 0 #1b1464, 0 -1px #1b1464;
+}
+
+.header
+{
+    font-size: 45px;
+    text-shadow: -1px 0 #1b1464, 0 1px #1b1464, 1px 0 #1b1464, 0 -1px #1b1464;
+}
