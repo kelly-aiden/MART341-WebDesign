@@ -1,0 +1,78 @@
+body
+{
+    background-position: center;
+    background-image: url(../media/night-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15pt;
+    font-family: "Titillium";
+    color: #f2eece;
+    text-align: center;
+}
+
+div
+{
+    margin: auto;
+}
+
+.title
+{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-image: url(../media/Io.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 200px;
+    border: 10px solid #f2eece;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1, h2
+{
+    text-align: center;
+    font-family: "ZenDots";
+    color:#c46500;
+}
+h1
+{
+    line-height: 250px;
+    font-size: 500%;
+}
+h2
+{
+    font-size: 300%;
+    letter-spacing: 0.05em;
+}
+
+p
+{
+    width: 500px;
+    margin: auto;
+}
+
+#Europa,#Ganymede
+{
+    font-weight: bolder;
+    color: #c46500;
+}
+
+#Europa:hover:after 
+{
+    content: " Europa has the smoothest surface of any solid body in the Solar System. Its icy surface may hide a buried ocean full of more water than Earth.";
+    color: #9ad6c5b0;
+    font-style: italic;
+}
+
+#Ganymede:hover:after 
+{
+    content: " Jupiter's icy moon Ganymede is the largest moon in our solar system, even bigger than the planet Mercury. It's so large it has its own the magnetic field, the only moon in the solar system with one.";
+    color: #a1b3a1b0;
+    font-style: italic;
+}
+
+
+
+
+
