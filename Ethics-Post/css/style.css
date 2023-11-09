@@ -1,0 +1,29 @@
+body
+{
+    background-color:#e5f5fc;
+    color:#021a59;
+}
+
+div
+{
+    text-align: left;
+    font-family: sans-serif;
+    font-style: normal;
+    margin: 10px;
+}
+
+.title
+{
+    font-family: sans-serif;
+    font-size: 80px;
+    text-shadow: -6px 2px 0 #021a59;
+    color:#e5f5fc;
+    background-color:#8ca4ae;
+    height: 100px;
+    text-align: center;
+}
+
+img
+{
+    padding: 20px 20px;
+}
