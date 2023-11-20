@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Instructions on how to solve a Rubik's cube">
+        <meta name="author" content="Aiden Kelly">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solving a Rubik's Cube</title>
+        <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="header-tab">
+                Home
+            </div>
+            <div class="header-tab">
+                Buy Cubes
+            </div>
+            <div class="dropdown-tab">
+                Solving Methods
+                <div class="dropdown-box">
+                    <div class="dropdown-item">
+                        2-Algorithm (Beginner)
+                    </div>
+                    <div class="dropdown-item">
+                        Intermediate
+                    </div>
+                    <div class="dropdown-item">
+                        Speed Cubing
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="title">
+            <h1>How to Solve a</h1>
+            <h2>Rubik's Cube</h2>
+        </div>
+        <h3>2-Algorithm Method</h3>
+        <h3>(Beginner's Method)</h3>
+        <br/>
+        <br/>
+        <div class="instruction terminology">
+            <h4>Basic Terminology</h4>
+            <img src="./media/holding-a-cube.jpg" alt="Example of holding a cube">
+            <ul>
+                <br/>
+                <li>
+                    <b>1. Orientation</b><br/>
+                    When holding a cube, hold it as seen in the picture to the right. With one face of the cube towards you and a hand on either side.
+                </li>
+                <br/>
+                <li>
+                    <b>2. Pieces </b><br/>
+                    There are three types of pieces:<br/> 
+                    <ul>
+                        <li>
+                            Centers - these remain fixed and serve as a guideline to solve the puzzle. On a solved cube, all the pieces of a particular colour surround the centre of that colour. On a scrambled cube, the centre represents the side on which the pieces of a particular colour are supposed to be.
+                        </li>
+                        <li>
+                            Corners - As the name suggests, the corner pieces are located on the corners of the cube. Each piece is made up of three different colours. There are 8 corners on any cube shape, and thus there are 8 corners on the Rubik's cube.
+                        </li>
+                        <li>
+                            Edges - The edges are the pieces between two corners. They are made up of two colours. There are 12 edges on the Rubik's cube. 
+                        </li>
+                    </ul>
+                </li>
+                <br/>
+                <li>
+                    <b>3. Notation</b><br/>
+                        The [] will notate the movement of the layer from the natural holding position for a better understanding:<br/> 
+                    <ul>
+                        <li>R - Right side clockwise [Right side upwards]</li>
+                        <li>R’ - Right side counter-clockwise [Right side downwards]</li>
+                        <li>L -  Left side clockwise [Left side downwards]</li>
+                        <li>L’ - Left side counter-clockwise [Left side upwards] (Note: L and R may be confusing at first since the moves are opposite to each other)</li>
+                        <li>F - Front side clockwise</li>
+                        <li>F’ - Front side counter-clockwise</li>
+                        <li>U - Upper face clockwise</li>
+                        <li>U’ - Upper face counter-clockwise</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction intro">
+            <h4>2-Algorithm Method</h4>
+            We approach the cube layer by layer. The bottom layer is solved first, the middle layer next and the last layer towards the end, building the layer up on the previous one. This method is divided into 6 steps - 
+            <ul>
+                <li>
+                    <b>1. First layer</b><br/> 
+                    <ul>
+                        <li>White cross</li>
+                        <li>White corners</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>2. Second layer</b><br/> 
+                    <ul>
+                        <li>Non-yellow edges</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>3. Last Layer</b><br/> 
+                    <ul>
+                        <li>Yellow cross</li>
+                        <li>Yellow corners</li>
+                        <li>Completing the top layer</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="./media/right-alg-example.jpg" alt="Example of right algorithm">
+            The two algorithms (set series of turns) we will be using through out this method are as follows:
+            <ul>
+                <li>Right Algorithm - R, U, R', U'</li>
+                <li>Left Algorithm - L', U', L, U</li>
+            </ul>
+            An example of the what the right algorithm does is pictured to the right. These will be refered to as Right Alg and Left Alg for the remainder of the instructions.
+        </div>  
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction step1">
+            <h4>White Cross</h4>
+            <img src="./media/White-cross.jpg" alt="Example of the white cross">
+            This is the simplest/most straight forward step. It is also the step in which there is no direction or easy way to complete it.<br/><br/> 
+            Your goal in this step is to get the cube to look like the picture. As in every white edge is in its correct location. Learn how pieces move around the cube in this time and try to do this on your own (you should be able to within a few minutes)
+        </div>  
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction step2">
+            <h4>White Corners</h4>
+            <img src="./media/first-layer.jpg" alt="Example of moving a corner into its spot">
+            Once you have the white cross, it is now time to complete the first layer.<br/><br/> 
+            To do this do U turns until a white corner piece is above its desired location. Then, holding the cube so that the corner is in the front right of your perspective, perform the right alg until the piece is in it's spot!<br/><br/>  
+            If a white corner is in the first layer but in the wrong spot, simply use the right alg once to get it to the top layer.
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction step3">
+            <h4>Non-yellow edges</h4>
+            It is now time to complete the second layer by moving the non-yellow edge pieces into their places.<br/><br/> 
+            The algorithm we use here is different depending on where the piece needs to go, left or right of where it is, once lined up with the correct center piece.
+            <ul>
+                <li>If the piece needs to go right: <i>U, Right Alg, turn entire cube left, Left Alg </i></li>
+                <li>If the piece needs to go left: <i>U', Left Alg, turn entire cube right, Right Alg </i></li>
+            </ul>
+            <br/><br/>  
+            <img class = "second-layer-pic" src="./media/middle-edge-right-complete.jpg" alt="Right middle edge iece in its spot">
+            <img class = "second-layer-pic" src="./media/middle-edge-right-step1.jpg" alt="Showing where an edge piece needs to go">
+            For example if the blue and red edge piece can be lined up with the blue center piece, it needs to go to the right. Example to the right:
+            <br/><br/><br/><br/> 
+            <img class = "second-layer-pic" src="./media/middle-edge-left-complete.jpg" alt="Left middle edge iece in its spot">
+            <img class = "second-layer-pic" src="./media/middle-edge-left-step1.jpg" alt="Showing where an edge piece needs to go">
+            For example if the green and red edge piece can be lined up with the green center piece, it needs to go to the left. Example to the right:
+        </div>   
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction step4">
+            <h4>Yellow Cross</h4>
+            <img src="./media/yellow-cross.jpg" alt="Example of moving a corner into its spot">
+            First two layers are done, now time for the yellow cross.<br/><br/> 
+            The yellow cross can be divided into three cases:
+            <ul>
+                <li>Yellow Dot (no yellow edges touching the yellow center) </li>
+                <li>Yellow L (two yellow edges form an L with the center)</li>
+                <li>Yellow Line (two yellow edges form a straight line with the center)</li>
+            </ul> 
+            The algorithm used for each case is the same,<br/>
+            <i>F, Right Alg, F' </i><br/> 
+            However, the initial positions vary. Identify the case on your cube and position it according to the corresponding position in the image. Simply repeat the algorithm until the cross is solved. !<br/><br/>  
+            If a white corner is in the first layer but in the wrong spot, simply use the right alg once to get it to the top layer.
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/> 
+        <div class="instruction step5">
+            <h4>Yellow Corners</h4>
+            <img src="./media/top-corner-swap.jpg" alt="swapping two corners on the top layer">
+            Now to match all the corner pieces in the top layer, We can swap two adjacent corners if they are on the right, <br/>
+            <i>Right Alg x3, turn entire cube left, Left Alg x3</i><br/>
+            If we want to swap two corners diagonally, we have no other choice than to swap twice over adjacent corners.<br/><br/>
+            When all corners are in their correct position, we flip the cube so that white faces up.<br/><br/><br/><br/>
+            <img src="./media/yellow-corner-orient.jpg" alt="swapping two corners on the top layer">
+            Let's now move on to the orientation of the corners. We position the cube so that the corner to be adjusted is at the bottom right. Now we repeat the Righty Alg until the yellow sticker of the corner faces down. Then we only do B' until a new corner is down right, and we perform the same thing again.
+            Don't be surprised if it messes up the entire cube! If all corners are properly adjusted, it should look like almost done.
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/> 
+        <div class="instruction step6">
+            <h4>Completeing the Top Layer</h4>
+            <img src="./media/yellow-edges.jpg" alt="last step scenario">
+            Everything should be solved now, except the yellow edges. There are two scenarios: Either one yellow edge is already correct or none. When we have one correct edge, we position the cube so that yellow is on top and the correct edge points forwards to us. Now we perform,<br/><br/>
+            <i>Right Alg, Left Alg, Right Alg x5, Left x5</i><br/><br/>
+            Either the cube is solved now or we have to do the same thing again! If none of the edges are right, it doesn't matter which side is facing forwards. Perform the same alg just mentioned which will result in one solved side, then repeat.
+        </div>
+        <br/>
+        <br/>
+    </body>
+</html>

@@ -1,0 +1,194 @@
+body
+{
+    background-color: #1d2024;
+    color: #e8eef6;
+    font-family: 'Rubik';
+}
+
+.header
+{
+    margin: auto;
+    position: fixed;
+    width: 99%;
+    height: 50px;
+    font-weight: bold;
+    background-color: #2a2e34;
+    text-align: center;
+    line-height: 35px;
+}
+
+.header-tab
+{
+    border: 3px solid #e8eef6;
+    display: inline-block;
+    margin: 5px 6%;
+    width: 20%;
+    height: 35px;
+}
+
+.header-tab:hover 
+{
+    background-color: #e8eef6;
+    color:#2a2e34;
+}
+
+.dropdown-tab
+{
+    border: 3px solid #e8eef6;
+    display: inline-block;
+    margin: 5px 6%;
+    width: 20%;
+    height: 35px;
+}
+
+.dropdown-tab:hover 
+{
+    background-color: #e8eef6;
+    color:#2a2e34;
+}
+
+
+.dropdown-box
+{
+    background-color: #2a2e34;
+    color: #e74e02;
+    width: 20%;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-tab:hover .dropdown-box
+{
+    display: block;
+}
+
+.dropdown-item
+{
+    border: 3px solid #e74e02;
+    color: #e74e02;
+    display: block;
+    margin: 10px 0;
+}
+
+.dropdown-item:hover
+{
+    background-color: #e74e02;
+    color:#2a2e34;
+    border-color: #2a2e34;
+}
+
+.title
+{
+    text-align: center;
+    width: 325px;
+    height: 325px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../media/header-cube.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px ridge;
+    border-color: red #05c105;
+}
+
+h1, h2
+{
+    color: yellow;
+    font-family:'Kdam';
+    font-size: 40px;
+    line-height: 10px;
+}
+
+h2
+{
+    line-height: 425px;
+}
+
+h3
+{
+    font-family:'Kdam';
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+h4
+{
+    margin-top: 15px;
+    font-family:'Kdam';
+    font-size: 25px;
+}
+
+.instruction
+{
+    text-align: left;
+    margin: auto;
+    border: 10px double;
+    width: 70%;
+    max-width: 600px;
+    height: 300px;
+    overflow: scroll;
+    padding: 2% 6%;
+}
+
+img
+{
+    display: inline;
+    width: 225px;
+    height: 225px;
+    float: right;
+    padding: 8px
+}
+
+.second-layer-pic
+{
+    display: inline;
+    width: 115px;
+    height: 115px;
+    float: right;
+    padding: 8px
+}
+
+
+.terminology, .step1
+{
+    color: #e1e9ea;
+}
+
+.step2
+{
+    color: #2582f5;
+}
+
+.step5
+{
+    color: #e70505;
+}
+
+.intro, .step6
+{
+    color: #05c105;
+}
+
+.step4
+{
+    color: yellow;
+}
+
+.step3
+{
+    color: #e74e02;
+}
+
+
+
+
+
+
+
+
+
