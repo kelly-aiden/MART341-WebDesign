@@ -1,0 +1,89 @@
+body
+{
+    background-position: center;
+    background-image: url(../media/night-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15pt;
+    font-family: "Titillium";
+    color: #f2eece;
+    text-align: center;
+}
+
+div
+{
+    margin: auto;
+}
+
+.title
+{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-image: url(../media/Io.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 200px;
+    border: 10px solid #f2eece;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1, h2
+{
+    text-align: center;
+    font-family: "ZenDots";
+    color:#c46500;
+}
+h1
+{
+    line-height: 250px;
+    font-size: 500%;
+}
+h2
+{
+    font-size: 300%;
+    letter-spacing: 0.05em;
+}
+
+p
+{
+    width: 500px;
+    margin: auto;
+}
+
+element
+{
+    font-weight: bolder;
+}
+
+#moons
+{
+    color: #95b4cb;
+}
+
+#mass
+{
+    color:#f6a30a;
+}
+
+#sun
+{
+    color:#f4f2e8;
+    font-style: italic;
+}
+
+#ice
+{
+    color:#11bfe6;
+}
+
+#fire
+{
+    color:#f6490a;
+}
+
+#lightning
+{
+    color:#8041f6;
+}
