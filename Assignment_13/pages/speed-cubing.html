@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Instructions on how to solve a Rubik's cube">
+        <meta name="author" content="Aiden Kelly">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solving a Rubik's Cube</title>
+        <link rel="stylesheet" type="text/css" href="../css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-tab">
+                <a href="../index.html" class="link-text">HOME</a>
+            </div>
+            <div class="header-tab">
+                <a href="#" class="link-text">BUY CUBES</a>
+            </div>
+            <div class="dropdown-tab">
+                SOLVING METHODS
+                <div class="dropdown-box">
+                    <div class="dropdown-item">
+                        <a href="./two-alg.html" class="link-text dropdown-text">2-Algorithm (Beginner)</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="./intermediate-method.html" class="link-text dropdown-text">Intermediate</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="./speed-cubing.html" class="link-text dropdown-text">Speed Cubing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="title">
+            <h1>How to Solve a</h1>
+            <h2>Rubik's Cube</h2>
+        </div>
+        <h3 id="speed-cubin">Speed Cubing Methods</h3>
+        <br/>
+        <br/>
+        <div class="instruction red">
+            <h4>Speed Cubing Methods</h4>
+            <img src="../media/speedy-methods.jpg" alt="Pic of some speed-cubing methods">
+            The CFOP method is used by the majority of cubers, hence why it i sconsidered the Intermediate Method. Previously ZZ and Petrus were used often, however, as cubing hardware improved these methods fell out of fashion, and are now considered sub-optimal. Although some methods (such as CFOP) employ a layer-by-layer system with algorithms, other significant (though less widely used) methods such as the Roux method starts by forming a 3x2x1 block on either side of the cube. I will provide a brief overview of several of the popular speed-cubing methods outside of CFOP:
+            <ul>
+                <li>Roux</li>
+                <li>ZZ Method</li>
+                <li>Mehta</li>
+            </ul>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction orange">
+            <h4>Roux Method</h4>
+           Roux uses some higher level cubing concpts, and thus is only ever really learned after learning CFOP. The Roux Method can be broken up into 4 Steps:
+            <ul>
+                <img src="../media/first-block.jpg" alt="Example of First Block">
+                <li>
+                    <b>1. First Block</b><br/> 
+                    This step aims to solve a 1x2x3 block on the left, but that can, of course, be rotated to be on the right hand side. This step is usually done by either inserting the DL edge, then solving the two F2L pairs around it, which is usually inefficient, or blockbuilding, which tends to have more moves that are not ergonomic.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/second-block.jpg" alt="Example of Second Block">
+                <li>
+                    <b>2. Second Block</b><br/> 
+                    This step has more complications than the first step, as you need to solve it without breaking the already solved first block. This block is occasionally done completely or influenced during the solving of the first block, but that is much harder to do. This block, unlike the initial one, is much easier to do by inserting the DR edge and then solving the pairs. M moves can be used, as nothing has been solved in that slice yet.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/CMLL.jpg" alt="Example of CMLL">
+                <li>
+                    <b>3. CMLL</b><br/> 
+                    There are 42 algorithms, and it is recommended that you learn all of them, but you can also just use sune and anti sune to orient the corners, then use Jb and Y perms to position them. <a href="https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method//" class="instruction-link" target = "_blank">Find more CMLL algorithms.</a>
+                </li>
+                <br/>
+                <br/>
+                <li>
+                    <b>4. L6E</b><br/> 
+                    L6E, or Last 6 Edges is the final step in the Roux method. This step has no algorithms, and is done intuitively in one of a few ways. The original Roux proposal was to orient all the centers and edges, then to permute the UR and UL edges then finally permute the M slice edges. The way that is probably easiest for beginners is to solve the F and B centers, then insert the DB and DF edges, then orient all the U layer edges, then permute them. It is quite inefficient though. The F and B centers can be solved in a M, M', or M2 move. After this, the DF and DB edges can be inserted by M' U2 M, M U2 M', M' U/U' M or M U/U' M. If the edge is already inserted in one of the slots, take it out by inserting a different edge into there by doing one of the above triggers. After the above, orienting the U layer is pretty easy. You can either stick to only M and U moves, or you can add in R and r moves to make it faster and more efficient.
+                </li>
+            </ul>
+        </div>  
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction green">
+            <h4>Mehta Method</h4>
+            The idea behind Mehta was to have more algorithmic steps, with a reasonable number of algorithms, 200 maximum. The movecount averages 40-50 moves. This method combines the movecount of Roux with the algorithms of CFOP. The Roux Method can be broken up into 4 Steps:
+            <ul>
+                <img src="../media/mehta-first-block.jpg" alt="Example of First Block">
+                <li>
+                    <b>1. First Block</b><br/> 
+                    The First Block step is like the Roux Method first block, except that the block is made on the D face rather than the L or R face as in Roux. The block can be made anywhere on the D face, but it should then be moved to the bottom left row and the bottom middle row. The 3QB step is RUu gen, with very infrequent E moves, and once done, the empty belt edge should be in RF with the belt misaligned, as will be shown in the pictures. The EOLE step involves solving the last belt edge, as well as orienting all the edges. After these steps, then it is the algorithmic ending. This step involves making a 1x2x3 block on the D face. This block should be in DL, as shown in this picture. Try to make a block on a variety of colors, as this will give you many more options in your Mehta solves, and more options are always good.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/3qb1.jpg" class="double-pic" alt="3QB">
+                <img src="../media/3qb2.jpg" class="double-pic" alt="3QB">
+                <li>
+                    <b>2. 3QB</b><br/> 
+                    This step is RUuE gen, which means that it only uses those moves. First, align the centres by doing a U or U2 or U'. Then, do one more U so that the centres are misaligned and solve the back left, back right and front left edge slots. These E slice edges are called the belt. The u move off is called a pseudo-block and it is necessary to ensure that the 6CO and 6CP algorithms work. It is possible to do a U' move off, as that would still be a pseudo-block, but then the front right belt edge would still need to be unsolved, and then for the 6CP algorithms you would need to do the D moves in the opposite direction and it would just be more hassle than is necessary.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/eole.jpg" alt="Example of EOLE">
+                <li>
+                    <b>3. EOLE</b><br/> 
+                    In this step, you insert the last belt edge and orient all the edges. For a beginner, this tends to be done by making sure that the bottom right edge is oriented, then using R U R', R U' R', F' U F, or F' U' F to cycle what edges are in the front right slot, then once the edges are oriented, inserting the edge that should be in front right.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/6coAllOriented.jpg" alt="Example of 6CO">
+                <li>
+                    <b>4. 6CO</b><br/> 
+                    In this step, you orient all the remaining pieces on the cube: the corners that are not part of the first block that you made in the first step. This is where the 6 in 6CO and 6CP comes from, as there are 8 corners on the cube, and 2 have been solved already. For a beginner, there are 7 algorithms, a few of which will be familiar to you if you have used the beginner's method or CFOP. This step is done in two parts which are putting two oriented corners into the D layer and then orienting the rest. Some of these algorithms affect the DR edge, so do not try to use them in CFOP solves. If there are less than two oriented corners on the cube, you need to do a Sune algorithm (shown below) to orient another corner to put in the bottom bar using R2 U/U2/U' R2 triggers. After doing this, you need to use the algorithm that matches the case that you have. The 7 cases are the same as CFOP 2 look OLL.
+                </li>
+            </ul>
+        </div>  
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="instruction blue">
+            <h4>ZZ Method</h4>
+            The steps of the beginner ZZ method are EOLine, F2L and LL.
+            <ul>
+                <img src="../media/EOLine.jpg" alt="Example of EOLine">
+                <li>
+                    <b>1. EOLine</b><br/> 
+                    This step, at least for beginners, is usually split into two sub-steps: the EO (edge orientation) and the Line. Once you have seen what edges are bad on the U/D faces, look at the F/B stickers of the E slice edges: so the F sticker of the FR and FL edges, and the B sticker of BR and BL edges. The same rules apply: L/R color: bad; F/B color: look at the other sticker, then if that is U/D color, then it is bad, if it is L/R color it is good; U/D color: good. To then orient the edges, you must use U/D/R/L moves, along with occasional F2/B2 moves, to put the bad edges on the F or B face, as doing an F or B move will change all the edges on that face from bad to good, or good to bad, whereas F2/B2 moves don't change that. Repeat the steps of putting the edge on F/B until you have 4 bad edges on it, then do an F/B move and keep going. Once you have finished EO, solve the line by positioning the BD edge at BU and doing B2 and then positioning the FD edge at FU and doing F2 to solve that. Then, move onto the F2L step.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/ZZ-f2l.jpg" alt="3QB">
+                <li>
+                    <b>2. F2L</b><br/> 
+                    The unarguable bonus of doing EOLine is that F2L can be solved RUL gen. This makes the moves very fast to do and a majority of inserts will end up being 2-gen RU or LU inserts, both of which are desirable movesets. Once EOLine is done, then solve the left and right 1x2x3 blocks, without breaking EO or the line. This will take some trying, as F, B, D, and slice moves are not allowed, as they will mess up one or both of EO and the line. They shouldn't be needed, though, as the edges are oriented to ensure that only RUL moves are needed. The way most beginners tend to do it is by inserting the RD or LD edge by positioning it at RU or LU depending on which side the edge should go on, then doing an R2 or L2. Then, solve the rest of the pairs. Don't be afraid to have to mess up one to put in another.
+                </li>
+                <br/>
+                <br/>
+                <img src="../media/ZZ-LL.jpg" alt="Example of LL">
+                <li>
+                    <b>3. LL</b><br/> 
+                    As the EOLine step oriented the edges, advanced solvers frequently finish off with ZBLL. However, there are many alternatives to an almost 500 alg algset, including OCLL then PLL, which is what this tutorial will teach. All 7 algorithms OCLL needs to orient the corners, along with the 21 algorithms of PLL can be found <a href="https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/zz-method/" class="instruction-link" target = "_blank">here.</a>.
+                </li>
+            </ul>
+        </div>
+        <br/>
+        <br/>
+    </body>
+</html>
